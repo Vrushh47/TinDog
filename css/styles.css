@@ -1,0 +1,161 @@
+/* Elements */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.section-heading{
+  font-weight: bolder;
+  /* Black */
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+@media (max-width :1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+.big-heading {
+  font-weight: bolder;/* Black */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  margin-top: 3%;
+  position: absolute;
+  right: 33%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  /* font-weight: bold; */
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* Download */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+  /* height: 33.33%; */
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c88;
+}
+
+.feature-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-item {
+  padding: 5%;
+  /* height: 33.33%;  */
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 15px 50px;
+}
+
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pricing-body-heading {
+  font-weight: bolder;
+  /* Black */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.footer-icon {
+  margin: 2% 0 2% 2%;
+}
