@@ -33,17 +33,6 @@ p {
   text-align: left;
 }
 
-@media (max-width :1028px) {
-  .title-img {
-    position: static;
-    transform: rotate(0);
-  }
-
-  #title {
-    text-align: center;
-  }
-}
-
 .big-heading {
   font-weight: bolder;/* Black */
   font-size: 3.5rem;
@@ -60,6 +49,17 @@ p {
   margin-top: 3%;
   position: absolute;
   right: 33%;
+}
+
+@media (max-width :1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
 
 /* Navigation Bar */
